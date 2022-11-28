@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNet</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="shortcut icon" href="D:\Projetos Pessoais\Projetos\Empresa de Internet\imagens\favicon-16x16.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+
+<body>
+    <!-- Topo -->
+    <div id="fixo-topo">
+        <header id="header">
+            <a id="logo" href="index.html"><img src="imagens\logo.png" alt="Logo" title="Logo"></a>
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                    aria-expanded="false">Menu
+                    <span id="hamburger"></span>
+                </button>
+                <ul id="menu" role="menu">
+                    <li><a href="#servicos"><ion-icon name="bag-handle-outline"></ion-icon>Serviços</a></li>
+                    <li><a href="https://t.me/Teozinhobot"><ion-icon name="call-outline"></ion-icon>Contato</a></li>
+                    <li><a href="segunda-via-boleto.html"><ion-icon name="receipt-outline"></ion-icon>Segunda Via do Boleto</a></li>
+                    <li><a href="extrato.html"><ion-icon name="receipt-outline"></ion-icon>Extrato</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+        <img src="imagens\banner-01.jpeg" alt="banner" title="banner">
+    </div>
+
+    <!-- Promoções -->
+    <section>
+        <div class="promocoes" id="ofertas">
+            <div class="promocoes-title">
+                <h2 class="title-page">Contrate nossos produtos on-line</h2>
+                <p style="margin-top: 8px;">Confira as soluções que o banco TechZone oferece para você.</p>
+            </div>
+            <div class="ofertas row">
+                <div>
+                    <div class="card-item">
+                        <div class="card-info">
+                            <span><ion-icon name="hand-left-outline"></ion-icon> Renegociação</span>
+                            <h3>Renegociação com até 20% off</h3>
+                            <p>Esquenta TechZone Week: até 20% a mais de desconto na sua oferta de renegociação!</p>
+                            <div>
+                                <button><a href="https://t.me/Teozinhobot">Confira aqui</a></button>
+                            </div>
+                        </div>
+                        <img src="imagens\pessoa-celular.png" alt="Renegociação" title="Renegociação">
+                    </div>
+
+                    <div class="card-item">
+                        <div class="card-info">
+                            <span><ion-icon name="car-sport-outline"></ion-icon> Consórcio</span>
+                            <h3>Consórcio parcelado não sai caro</h3>
+                            <p>Planeje seu imóvel, moto, carro ou veículo pesado sem entrada e sem juros. Consulte as condições.</p>
+                            <div>
+                                <button><a href="https://t.me/Teozinhobot">Simule</a></button>
+                            </div>
+                        </div>
+                        <img src="imagens\casa.png" alt="Renegociação" title="Renegociação">
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card-item">
+                        <div class="card-info">
+                            <span><ion-icon name="wallet-outline"></ion-icon> Empréstimo</span>
+                            <h3>Precisando de dinheiro?</h3>
+                            <p>Conheça as opções de crédito que o TechZone tem pra você.</p>
+                            <div>
+                                <button><a href="https://t.me/Teozinhobot">Confira aqui</a></button>
+                            </div>
+                        </div>
+                        <img src="imagens\casal.png" alt="Empréstimo" title="Empréstimo">
+                    </div>
+
+                    <div class="card-item">
+                        <div class="card-info">
+                            <span><ion-icon name="hand-left-outline"></ion-icon> Investimento</span>
+                            <h3>Investimentos a partir de R$1,00</h3>
+                            <p>Prateleira de produtos de vários gestores do mercado com a segurança e solidez que o TechZone tem.</p>
+                            <div>
+                                <button><a href="https://t.me/Teozinhobot">Confira</a></button>
+                            </div>
+                        </div>
+                        <img src="imagens\celular.png" alt="Investimentos" title="Investimentos">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços em Destaque -->
+    <section>
+        <div class="servicos-container" id="servicos">
+
+            <div class="servicos-item">
+                <h2 class="d-flex align-items-center"><ion-icon name="wallet-outline"></ion-icon> Pix</h2>
+                <div>
+                    <p>Internet Fibra Ótica com alta velocidade e estabilidade pra você navegar à vontade, trabalhar ou estudar online, jogar, assistir filmes e séries.</p>
+                </div>
+            </div>
+
+            <div class="servicos-item">
+                <h2 class="d-flex align-items-center"><ion-icon name="receipt-outline"></ion-icon> 2ª Via do Boleto</h2>
+                <div>
+                    <p>Contrate o telefone fixo da Oi e faça ligações ilimitadas locais e DDD pra fixo e celular de qualquer operadora do Brasil.</p>
+                </div>
+            </div>
+
+            <div class="servicos-item">
+                <h2 class="d-flex align-items-center"><ion-icon name="airplane-outline"></ion-icon> Viagens</h2>
+                <div>
+                    <p>Confira os planos de TV por assinatura da TechNet e garanta os melhores canais pra assistir filmes, séries, esportes e muito mais.</p>
+                </div>
+            </div>
+
+            <div class="servicos-item">
+                <h2 class="d-flex align-items-center"><ion-icon name="call-outline"></ion-icon> Sac / Ouvidoria</h2>
+                <div>
+                    <p>Assine um Combo TechNet com tudo o que você precisa e leve fixo ilimitado e TechNet Play sem pagar nada a mais por isso!</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="d-flex justify-content-center" style="margin: 50px 0;">
+        <div class="seguranca-content">
+            <img src="imagens\email.png" alt="Email" title="Email">
+            <p>Proteja-se! Confira sempre se seu boleto vem com seu nome, telefone e endereço</p>
+        </div>
+    </section>
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="d-flex justify-content-center">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">TechNet © 2018</p>
+        </footer>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
